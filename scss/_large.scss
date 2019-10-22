@@ -1,0 +1,32 @@
+body {
+  margin: auto;
+}
+
+
+
+  nav {
+    max-width: 960px;
+    margin: auto;
+    li {
+      width: 10%;
+    }
+  }
+
+  div.headerWrapper {
+    background-image: url(../images/large.jpg), url(../images/repeat.png);
+    background-position: center top, left bottom;
+    background-repeat: no-repeat, repeat;
+    height: 400px;
+    background-color: red;
+  }
+
+  header {
+    background: none;
+    max-width: 960px;
+    margin: auto;
+  }
+
+  main {
+    margin: auto;
+    max-width: 960px;
+  }
