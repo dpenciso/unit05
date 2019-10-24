@@ -12,13 +12,26 @@ body {
     }
   }
 
-  div.headerWrapper {
+  // div.headerWrapper {
     
-  }
+  // }
 
   header {
     max-width: 75rem;
     margin: auto;
+  }
+
+  .heroMedium {
+    display: none;
+  }
+  
+  .heroSmall {
+    display: none;
+  }
+
+  .heroLarge {
+    display: block;
+    width: 100%;
   }
 
   main {

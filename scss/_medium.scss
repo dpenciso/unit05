@@ -4,10 +4,19 @@
     }
   }
 
-  div.headerWrapper {
-    ;
+  // div.headerWrapper {
+    
+  // }
+
+  .heroSmall {
+    display: none;
+  }
+  
+  .heroLarge {
+    display: none;
   }
 
-  
-
- 
+  .heroMedium {
+    display: block;
+    width: 100%;
+  }
