@@ -37,11 +37,16 @@
         </ul>
     </nav>
 </div>
-    <main class="clearfix">
-    <figure class="hero">
-        <img src="hero/hero0.jpg" alt="hero image" srcset="hero/hero450.jpg w, hero/600.jpg w, hero/hero750.jpg w, hero/900.jpg w, hero/1050.jpg w">
-         
-    </figure>
+    <main class="clearfix"> 
+<picture class="hero">
+    <source media="(max-width: 450px" srcset="hero/hero450.jpg">
+        <source media="(max-width: 600px" srcset="hero/hero600.jpg">
+            <source media="(max-width: 750px" srcset="hero/hero750.jpg">
+                <source media="(max-width: 900px" srcset="hero/hero900.jpg">
+                    <source media="(max-width: 1050px" srcset="hero/hero1050.jpg"> 
+                        <img src="hero/hero1200.jpg" alt="food on table">       
+</picture>
+
     <h1 class="text">Home</h1>
     <h1 class="welcome">Welcome to The Eat Good Restaurant</h1>
     <p>Globally enable intuitive users with turnkey strategic
