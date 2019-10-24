@@ -49,7 +49,7 @@ header {
 nav {
   
   margin: 0;
-  padding: 0 2%;
+  padding: 0;
   ul {
     margin: 0;
     padding: 0;
@@ -107,6 +107,7 @@ h1.welcome {
   font-size: 1.5rem;
   margin: 0;
   font-weight: $heavyWeight;
+  text-align: center;
 }
 
 .figureDiv {
