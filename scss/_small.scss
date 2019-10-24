@@ -75,6 +75,11 @@ nav {
   }
 }
 
+figure.hero {
+  padding: 0;
+  margin: 0;
+}
+
 .heroMedium {
   display: none;
 }
@@ -86,6 +91,8 @@ nav {
 .heroSmall {
   display: block;
   width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 h1.text {
